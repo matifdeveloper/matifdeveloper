@@ -22,17 +22,17 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HeighLight(
                       counter: AnimatedCounter(
-                        value: 119,
-                        text: "K+",
-                      ),
-                      label: "Subscribers",
-                    ),
-                    HeighLight(
-                      counter: AnimatedCounter(
                         value: 40,
                         text: "+",
                       ),
-                      label: "Videos",
+                      label: "Projects",
+                    ),
+                    HeighLight(
+                      counter: AnimatedCounter(
+                        value: 150,
+                        text: "k+",
+                      ),
+                      label: "Users on Playstore",
                     ),
                   ],
                 ),
@@ -42,17 +42,17 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HeighLight(
                       counter: AnimatedCounter(
-                        value: 30,
+                        value: 10,
                         text: "+",
                       ),
-                      label: "GitHub Projects",
+                      label: "Apps live on App store",
                     ),
                     HeighLight(
                       counter: AnimatedCounter(
-                        value: 13,
-                        text: "K+",
+                        value: 10,
+                        text: "+",
                       ),
-                      label: "Stars",
+                      label: "Apps live on Playstore",
                     ),
                   ],
                 ),
@@ -63,31 +63,31 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HeighLight(
                   counter: AnimatedCounter(
-                    value: 119,
-                    text: "K+",
-                  ),
-                  label: "Subscribers",
-                ),
-                HeighLight(
-                  counter: AnimatedCounter(
                     value: 40,
                     text: "+",
                   ),
-                  label: "Videos",
+                  label: "Projects",
                 ),
                 HeighLight(
                   counter: AnimatedCounter(
-                    value: 30,
+                    value: 150,
+                    text: "k+",
+                  ),
+                  label: "Users on Playstore",
+                ),
+                HeighLight(
+                  counter: AnimatedCounter(
+                    value: 10,
                     text: "+",
                   ),
-                  label: "GitHub Projects",
+                  label: "Apps live on App store",
                 ),
                 HeighLight(
                   counter: AnimatedCounter(
-                    value: 13,
-                    text: "K+",
+                    value: 10,
+                    text: "+",
                   ),
-                  label: "Stars",
+                  label: "Apps live on Playstore",
                 ),
               ],
             ),

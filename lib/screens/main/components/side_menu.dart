@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
+import 'package:flutter_profile/services/link_service.dart';
 import 'package:flutter_svg/svg.dart';
 
 import 'area_info_text.dart';
@@ -27,15 +28,15 @@ class SideMenu extends StatelessWidget {
                   children: [
                     AreaInfoText(
                       title: "Residence",
-                      text: "Bangladesg",
+                      text: "Pakistan",
                     ),
                     AreaInfoText(
                       title: "City",
-                      text: "Dhaka",
+                      text: "Peshawar",
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "22",
+                      text: "25",
                     ),
                     Skills(),
                     SizedBox(height: defaultPadding),
@@ -44,7 +45,9 @@ class SideMenu extends StatelessWidget {
                     Divider(),
                     SizedBox(height: defaultPadding / 2),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        LinkService.openLink('https://drive.google.com/file/d/1hoCbn2evXoDWsjEM-CfJI37I0H5Gpd5c/view?usp=sharing');
+                      },
                       child: FittedBox(
                         child: Row(
                           children: [
@@ -53,7 +56,7 @@ class SideMenu extends StatelessWidget {
                               style: TextStyle(
                                 color: Theme.of(context)
                                     .textTheme
-                                    .bodyText1!
+                                    .bodyLarge!
                                     .color,
                               ),
                             ),
@@ -70,15 +73,21 @@ class SideMenu extends StatelessWidget {
                         children: [
                           Spacer(),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              LinkService.openLink('https://www.linkedin.com/in/matifdeveloper/');
+                            },
                             icon: SvgPicture.asset("assets/icons/linkedin.svg"),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              LinkService.openLink('https://github.com/matifdeveloper');
+                            },
                             icon: SvgPicture.asset("assets/icons/github.svg"),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              LinkService.openLink('https://twitter.com/Muhamma32445373');
+                            },
                             icon: SvgPicture.asset("assets/icons/twitter.svg"),
                           ),
                           Spacer(),

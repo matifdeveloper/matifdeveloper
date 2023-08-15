@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/responsive.dart';
+import 'package:flutter_profile/services/link_service.dart';
 
 import '../../../constants.dart';
 
@@ -45,7 +46,10 @@ class HomeBanner extends StatelessWidget {
                 SizedBox(height: defaultPadding),
                 if (!Responsive.isMobileLarge(context))
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      final contact = '+923085690603';
+                      LinkService.openLink('https://wa.me/$contact');
+                    },
                     style: TextButton.styleFrom(
                       padding: EdgeInsets.symmetric(
                           horizontal: defaultPadding * 2,
@@ -53,7 +57,7 @@ class HomeBanner extends StatelessWidget {
                       backgroundColor: primaryColor,
                     ),
                     child: Text(
-                      "EXPLORE NOW",
+                      "Hire Me",
                       style: TextStyle(color: darkColor),
                     ),
                   ),
@@ -109,11 +113,19 @@ class AnimatedText extends StatelessWidget {
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "complete e-Commerce app UI.",
+          "I build e-Commerce applications.",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Chat app with dark and light theme.",
+          "I build AI applications.",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "I build Chat applications.",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "I can code your thoughts.",
           speed: Duration(milliseconds: 60),
         ),
       ],

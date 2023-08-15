@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/models/Project.dart';
 import 'package:flutter_profile/responsive.dart';
+import 'package:flutter_profile/services/link_service.dart';
 
 import '../../../constants.dart';
 
@@ -24,7 +25,10 @@ class ProjectCard extends StatelessWidget {
             project.title!,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: Theme.of(context).textTheme.subtitle2,
+            style: Theme
+                .of(context)
+                .textTheme
+                .titleSmall,
           ),
           Spacer(),
           Text(
@@ -34,14 +38,59 @@ class ProjectCard extends StatelessWidget {
             style: TextStyle(height: 1.5),
           ),
           Spacer(),
-          TextButton(
-            onPressed: () {},
-            child: Text(
-              "Read More >>",
-              style: TextStyle(color: primaryColor),
-            ),
+          Row(
+            children: [
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "Read More >>",
+                  style: TextStyle(color: primaryColor),
+                ),
+              ),
+              Spacer(),
+              if (project.appstore != null) ...[
+                socialButton(
+                  'assets/icons/appstore.png',
+                  url: project.appstore,
+                ),
+                SizedBox(
+                  width: defaultPadding,
+                ),
+              ],
+              if (project.playstore != null) ...[
+                socialButton(
+                    'assets/icons/playstore.png',
+                    url: project.playstore,
+                ),
+                SizedBox(
+                  width: defaultPadding,
+                ),
+              ],
+              if (project.web != null) ...[
+                socialButton(
+                  'assets/icons/web.png',
+                  url: project.web,
+                ),
+              ],
+            ],
           ),
         ],
+      ),
+    );
+  }
+
+  Widget socialButton(String icon, {String? url}) {
+    return InkWell(
+      splashColor: Colors.transparent,
+      highlightColor: Colors.transparent,
+      hoverColor: Colors.transparent,
+      onTap: () {
+        LinkService.openLink(url ?? '');
+      },
+      child: Image.asset(
+        icon,
+        width: 24,
+        height: 24,
       ),
     );
   }

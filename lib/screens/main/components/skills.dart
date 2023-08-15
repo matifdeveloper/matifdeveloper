@@ -18,29 +18,104 @@ class Skills extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
             "Skills",
-            style: Theme.of(context).textTheme.subtitle2,
+            style: Theme.of(context).textTheme.titleSmall,
           ),
         ),
         Row(
           children: [
             Expanded(
               child: AnimatedCircularProgressIndicator(
-                percentage: 0.8,
+                percentage: 0.95,
                 label: "Flutter",
               ),
             ),
             SizedBox(width: defaultPadding),
             Expanded(
               child: AnimatedCircularProgressIndicator(
-                percentage: 0.72,
-                label: "Django",
+                percentage: 0.8,
+                label: "Firebase",
               ),
             ),
             SizedBox(width: defaultPadding),
             Expanded(
               child: AnimatedCircularProgressIndicator(
+                percentage: 0.7,
+                label: "Flutter AI",
+              ),
+            ),
+          ],
+        ),
+        SizedBox(height: defaultPadding),
+        Row(
+          children: [
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
                 percentage: 0.65,
-                label: "Firebase",
+                label: "PHP",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.5,
+                label: "UI/UX",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 1,
+                label: "Rest Api\'s",
+              ),
+            ),
+          ],
+        ),
+        SizedBox(height: defaultPadding),
+        Row(
+          children: [
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.85,
+                label: "iOS",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.99,
+                label: "Android",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.8,
+                label: "Web",
+              ),
+            ),
+          ],
+        ),
+        SizedBox(height: defaultPadding),
+        Row(
+          children: [
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.8,
+                label: "Wordpress",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.85,
+                label: "Bootstrap",
+              ),
+            ),
+            SizedBox(width: defaultPadding),
+            Expanded(
+              child: AnimatedCircularProgressIndicator(
+                percentage: 0.5,
+                label: "ASO",
               ),
             ),
           ],

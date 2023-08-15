@@ -1,38 +1,36 @@
 class Project {
-  final String? title, description;
+  final String? title, description, playstore, appstore, web;
 
-  Project({this.title, this.description});
+  Project({
+    this.title,
+    this.description,
+    this.playstore,
+    this.appstore,
+    this.web,
+  });
 }
 
-List<Project> demo_projects = [
+List<Project> demoProjects = [
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "Nest - Your Al Parenting Companion",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
+        '''Nest is a revolutionary application designed to assist pregnant mothers throughout their journey. Powered by cutting-edge technologies such as OpenAl and Firebase, Nest offers a seamless and intelligent backend system. Through our innovative prompts, we have tailored the user experience to be akin to a patient conversing with a healthcare professional.
+The application features a comprehensive chat section, providing users with the opportunity to engage with "Ada," our virtual doctor. Ada's responses emulate natural conversation, much like the familiar interaction experienced with GPT-4, while possessing a keen memory of past discussions and user information to ensure personalized interactions.
+Daily check-ins with Ada offer a valuable means of tracking and monitoring your child's progress. Additionally, users' partners can actively participate by accessing and managing their child's data, facilitating seamless collaboration and communication.
+Nest empowers users with the ability to discover and select suitable names for their children, as well as accommodate multiple child profiles within the application. Moreover, inviting one's fiancé allows for shared management of child-related information, promoting a sense of togetherness and parental partnership.
+For those seeking the full spectrum of premium features, Nest offers In-App Purchase integration. Subscribing through Google Pay or Apple Pay grants access to exclusive benefits and enhanced functionalities, ensuring an unparalleled parenting experience.
+With Nest - Your Al Parenting Companion, we strive to provide expectant mothers with a supportive and intuitive platform, combining advanced Al technologies with personalized care to enrich their parenting journey like never before.''',
+    playstore: 'https://play.google.com/store/apps/details?id=com.metasense.nest',
   ),
   Project(
-    title: "E-Commerce Complate App - Flutter UI",
+    title: "Hesett Restaurant",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "Hesett Restaurant helps restaurants reach a new level and also provides customers with a smart and innovative way to order their food.",
   ),
   Project(
-    title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
+    title: "Hesett Restaurant Web App",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
-  ),
-  Project(
-    title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
-    description:
-        "Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button.",
-  ),
-  Project(
-    title: "Welcome page, Login Page and Sign up page - Flutter UI",
-    description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
-  ),
-  Project(
-    title: "Covid-19 App - Flutter UI",
-    description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "The Hesett Restaurant web app helps restaurants reach a new level. Restaurants can upload their menus along with all other details, Customers can view the menu app, etc.",
+    web: 'https://lordwide-restaurant-ab977.web.app/#/',
   ),
 ];
