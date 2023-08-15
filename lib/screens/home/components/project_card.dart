@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/models/Project.dart';
 import 'package:flutter_profile/responsive.dart';
+import 'package:flutter_profile/screens/home/project_detail_screen.dart';
 import 'package:flutter_profile/services/link_service.dart';
 
 import '../../../constants.dart';
@@ -25,10 +26,7 @@ class ProjectCard extends StatelessWidget {
             project.title!,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: Theme
-                .of(context)
-                .textTheme
-                .titleSmall,
+            style: Theme.of(context).textTheme.titleSmall,
           ),
           Spacer(),
           Text(
@@ -41,7 +39,16 @@ class ProjectCard extends StatelessWidget {
           Row(
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => ProjectDetails(
+                        project: project,
+                      ),
+                    ),
+                  );
+                },
                 child: Text(
                   "Read More >>",
                   style: TextStyle(color: primaryColor),
@@ -59,8 +66,8 @@ class ProjectCard extends StatelessWidget {
               ],
               if (project.playstore != null) ...[
                 socialButton(
-                    'assets/icons/playstore.png',
-                    url: project.playstore,
+                  'assets/icons/playstore.png',
+                  url: project.playstore,
                 ),
                 SizedBox(
                   width: defaultPadding,
