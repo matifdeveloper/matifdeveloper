@@ -79,6 +79,14 @@ class ProjectCard extends StatelessWidget {
                   url: project.web,
                 ),
               ],
+              if (project.playstore == null &&
+                  project.appstore == null &&
+                  project.web == null) ...[
+                Text(
+                  "Uploading soon",
+                  style: TextStyle(color: primaryColor),
+                ),
+              ]
             ],
           ),
         ],

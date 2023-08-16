@@ -17,6 +17,15 @@ class ProjectDetails extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              IconButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                icon: Icon(
+                  Icons.arrow_back_outlined,
+                  color: Colors.white,
+                ),
+              ),
               Text(
                 project.title!,
                 maxLines: 2,
