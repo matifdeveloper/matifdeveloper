@@ -39,8 +39,6 @@ The main functionalities I have used in this app are:
 3. Google Ads
     ''',
     playstore: 'https://play.google.com/store/apps/details?id=com.noorisofttech.ai_art_generator',
-    screenshot: 'image_ai',
-    totalScreenshots: 7,
   ),
   Project(
     title: "Nest - Your Al Parenting Companion",
@@ -63,6 +61,19 @@ With Nest - Your Al Parenting Companion, we strive to provide expectant mothers 
     title: "Taj Personal Care",
     description: 'Taj Personal Care offers the best AL Taj AL Malaki therapeutic Spa and Treatment in Dubai Taj Spa professional therapists are from AL Taj AL Malaki therapeutic Spa is a complete combination of Asian Treatment therapists’ expertise, a blend of world aroma, mythological roots, and fascinating ambiance.',
     playstore: 'https://play.google.com/store/apps/details?id=com.metasense.taj_spa',
+  ),
+  Project(
+    title: "Mana Care",
+    description: '''The Pet Sitters and Baby Sitter app – a seamless and intuitive solution designed for both Android and iOS platforms. This app harnesses the power of modern technology to connect caregivers and pet owners, as well as parents and babysitters, ensuring convenience, peace of mind, and efficient communication.
+    
+The main functionalities I have used in this app are:
+  1. Social Auths
+  2. Cloud Firestore
+  3. Firebase Messaging
+  4. Notification
+  5. Firebase Storage
+  6. One 2 One Chat
+    ''',
   ),
   Project(
     title: "Hesett Restaurant",
