@@ -58,6 +58,7 @@ class ProjectCard extends StatelessWidget {
               if (project.appstore != null) ...[
                 socialButton(
                   'assets/icons/appstore.png',
+                  context,
                   url: project.appstore,
                 ),
                 SizedBox(
@@ -67,6 +68,7 @@ class ProjectCard extends StatelessWidget {
               if (project.playstore != null) ...[
                 socialButton(
                   'assets/icons/playstore.png',
+                  context,
                   url: project.playstore,
                 ),
                 SizedBox(
@@ -76,6 +78,7 @@ class ProjectCard extends StatelessWidget {
               if (project.web != null) ...[
                 socialButton(
                   'assets/icons/web.png',
+                  context,
                   url: project.web,
                 ),
               ],
@@ -84,7 +87,10 @@ class ProjectCard extends StatelessWidget {
                   project.web == null) ...[
                 Text(
                   "Uploading soon",
-                  style: TextStyle(color: primaryColor),
+                  style: TextStyle(
+                    color: primaryColor,
+                    fontSize: Responsive.isMobileLarge(context) ? 8 : 14,
+                  ),
                 ),
               ]
             ],
@@ -94,7 +100,7 @@ class ProjectCard extends StatelessWidget {
     );
   }
 
-  Widget socialButton(String icon, {String? url}) {
+  Widget socialButton(String icon, BuildContext context, {String? url}) {
     return InkWell(
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
@@ -104,8 +110,8 @@ class ProjectCard extends StatelessWidget {
       },
       child: Image.asset(
         icon,
-        width: 24,
-        height: 24,
+        width: Responsive.isMobileLarge(context) ? 16 : 24,
+        height: Responsive.isMobileLarge(context) ? 16 : 24,
       ),
     );
   }

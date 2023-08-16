@@ -1,5 +1,6 @@
 class Project {
-  final String? title, description, playstore, appstore, web;
+  final String? title, description, playstore, appstore, web, screenshot;
+  final int? totalScreenshots;
 
   Project({
     this.title,
@@ -7,6 +8,8 @@ class Project {
     this.playstore,
     this.appstore,
     this.web,
+    this.screenshot,
+    this.totalScreenshots,
   });
 }
 
@@ -35,7 +38,9 @@ The main functionalities I have used in this app are:
 2. Local Database (Hive)
 3. Google Ads
     ''',
-    playstore: 'https://play.google.com/store/apps/details?id=com.noorisofttech.ai_art_generator'
+    playstore: 'https://play.google.com/store/apps/details?id=com.noorisofttech.ai_art_generator',
+    screenshot: 'image_ai',
+    totalScreenshots: 7,
   ),
   Project(
     title: "Nest - Your Al Parenting Companion",
