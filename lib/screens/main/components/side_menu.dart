@@ -86,7 +86,7 @@ class SideMenu extends StatelessWidget {
                           ),
                           IconButton(
                             onPressed: () {
-                              LinkService.openLink('https://twitter.com/Muhamma32445373');
+                              LinkService.openLink('https://twitter.com/atifburki11');
                             },
                             icon: SvgPicture.asset("assets/icons/twitter.svg"),
                           ),
