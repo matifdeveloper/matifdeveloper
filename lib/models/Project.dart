@@ -15,6 +15,12 @@ class Project {
 
 List<Project> demoProjects = [
   Project(
+    title: 'Swal AI - Chat Bot',
+    description:
+        '''Discover Swal AI, the ultimate AI companion powered by ChatGPT 4.0 technology. This revolutionary app offers expert guidance in various categories, including Business, Creative, Development, Personal, Social Media, Writing, and more. Whether you need career advice, creative inspiration, coding assistance, or emotional support, Swal AI is here to enhance your life and make your journey more insightful and enjoyable. Unlock the potential of AI with Swal AI: Chatbot 4.0, your trusted companion in knowledge, creativity, and well-being.''',
+    playstore: 'https://play.google.com/store/apps/details?id=com.swed.ai.chatbot',
+  ),
+  Project(
     title: 'Gaia - AI Dream Interpreter',
     description:
         '''The aim of this app is to Unlock the secrets of your subconscious with GAIA, your AI-powered dream analyst. Inspired by the profound theories of Carl Jung, GAIA dives into the labyrinth of your dreams, revealing hidden insights and messages tailor-made for you.
@@ -29,18 +35,6 @@ The main functionalities I have used in this app are:
     appstore: 'https://apps.apple.com/us/app/gaia-ai-dream-interpretor/id6450891063',
   ),
   Project(
-    title: 'ImageAI - Art Generator',
-    description:
-        '''ImageAI – Art Generator is a groundbreaking app that harnesses the power of artificial intelligence to transform your imagination into stunning visual reality. With ImageAI, you can now create captivating and unique images simply by describing them in text form. Unleash your creativity, explore uncharted territories, and bring your wildest visions to life like never before.
-
-The main functionalities I have used in this app are:
-1. Dalle Api
-2. Local Database (Hive)
-3. Google Ads
-    ''',
-    playstore: 'https://play.google.com/store/apps/details?id=com.noorisofttech.ai_art_generator',
-  ),
-  Project(
     title: "Nest - Your Al Parenting Companion",
     description:
         '''Nest is a revolutionary application designed to assist pregnant mothers throughout their journey. Powered by cutting-edge technologies such as OpenAl and Firebase, Nest offers a seamless and intelligent backend system. Through our innovative prompts, we have tailored the user experience to be akin to a patient conversing with a healthcare professional.
@@ -53,6 +47,18 @@ With Nest - Your Al Parenting Companion, we strive to provide expectant mothers 
         'https://play.google.com/store/apps/details?id=com.metasense.nest',
   ),
   Project(
+    title: "Noor Mahal",
+    description: 'Noor Mahal, a hidden gem of Indian cuisine nestled in the heart of Spain, offers a captivating culinary adventure that celebrates the diverse flavors and traditions of India. As you enter our doors, you will be greeted by an ambiance that seamlessly blends the warmth of Indian hospitality with the charm of Spanish surroundings.',
+    appstore: 'https://apps.apple.com/us/app/noor-mahal/id6456351734',
+    playstore: 'https://play.google.com/store/apps/details?id=com.hubsolutions.noormahal',
+  ),
+  Project(
+    title: "Wibbly",
+    description: 'ChatApp - Connect, Collaborate, and Chat Effortlessly! Welcome to wibbly, your ultimate destination for seamless and secure communication. With wibbly, connecting with friends, family, and colleagues has never been easier. Our feature-rich platform is designed to enhance your chatting experience while ensuring your privacy is our top priority. Key Features: User-Friendly Interface: Enjoy a sleek and intuitive interface that makes chatting a breeze. Our clean design puts the focus on your conversations. Instant Messaging: Stay connected in real-time with instant messaging. Send text, photos, videos, and more to express yourself fully. Group Chats: Create and join group chats to collaborate with multiple friends or colleagues simultaneously. Plan events, share updates, and discuss ideas effortlessly. Voice and Video Calls: Take your conversations to the next level with high-quality voice and video calls. Connect face-to-face, no matter where you are. Emojis and Stickers: Sprinkle some fun into your chats with a wide range of emojis and stickers to choose from. Express yourself in creative ways! OpenAI Chat Integration: We\'ve partnered with OpenAI to bring you cutting-edge AI-powered interactions. Engage in insightful and dynamic conversations with our integrated OpenAI Chat feature. Your Privacy Matters: At wibbly, we take your privacy seriously. We use state-of-the-art encryption to ensure that your personal data and conversations are kept safe and secure. You have full control over your data and can customize your privacy settings according to your preferences. Join the wibbly Community: Download wibbly now and join a vibrant community of users who value seamless communication and innovative features. Whether you\'re catching up with old friends, collaborating on projects, or exploring AI-powered conversations, wibbly is your go-to destination. Experience the future of communication with wibbly and OpenAI Chat integration. Download now and start chatting smarter!',
+    playstore: 'https://play.google.com/store/apps/details?id=com.metasense.wibbly',
+  ),
+
+  Project(
     title: "Play Now - Pickup Soccer",
     description: 'Play NOW is a soccer app for on demand pickup soccer in the Boston area. We are Boston’s #1 group for pickup soccer.',
     appstore: 'https://apps.apple.com/pk/app/play-now-pickup-soccer/id6444154431',
@@ -61,6 +67,26 @@ With Nest - Your Al Parenting Companion, we strive to provide expectant mothers 
     title: "Masters Barbershop",
     description: 'Master Barber Shop is here to revolutionize your grooming routine and connect you with the finest barbers in town. With our user-friendly app, you can effortlessly browse through a curated selection of skilled barbers, their exceptional services, transparent prices, and so much more. Get ready to elevate your grooming game like never before!.',
     appstore: 'https://apps.apple.com/us/app/masters-barbershop/id1670807810',
+  ),
+
+  Project(
+    title: "Harrys Restro",
+    description: 'Harry\'s Restro is an Indian restaurant located in Benalmádena, Spain. It has been serving authentic Indian cuisine since 2011. The restaurant is known for its fresh, flavorful food and its friendly, attentive service.\nThe menu at Harry\'s Restro features a wide variety of Indian dishes, including curries, tandoori, biryani, and more. There is something for everyone on the menu, and the dishes are all made with fresh, high-quality ingredients.',
+    playstore: 'https://play.google.com/store/apps/details?id=com.hubsolutions.harrysrestro',
+    appstore: 'https://apps.apple.com/us/app/harrys-restro/id6449031817',
+  ),
+
+  Project(
+    title: 'ImageAI - Art Generator',
+    description:
+    '''ImageAI – Art Generator is a groundbreaking app that harnesses the power of artificial intelligence to transform your imagination into stunning visual reality. With ImageAI, you can now create captivating and unique images simply by describing them in text form. Unleash your creativity, explore uncharted territories, and bring your wildest visions to life like never before.
+
+The main functionalities I have used in this app are:
+1. Dalle Api
+2. Local Database (Hive)
+3. Google Ads
+    ''',
+    playstore: 'https://play.google.com/store/apps/details?id=com.noorisofttech.ai_art_generator',
   ),
   Project(
     title: "HD Wallpapers 2023",
