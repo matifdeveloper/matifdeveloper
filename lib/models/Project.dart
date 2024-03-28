@@ -15,10 +15,24 @@ class Project {
 
 List<Project> demoProjects = [
   Project(
-    title: 'Swal AI - Chat Bot',
+    title: 'Admob Easy',
     description:
-        '''Discover Swal AI, the ultimate AI companion powered by ChatGPT 4.0 technology. This revolutionary app offers expert guidance in various categories, including Business, Creative, Development, Personal, Social Media, Writing, and more. Whether you need career advice, creative inspiration, coding assistance, or emotional support, Swal AI is here to enhance your life and make your journey more insightful and enjoyable. Unlock the potential of AI with Swal AI: Chatbot 4.0, your trusted companion in knowledge, creativity, and well-being.''',
+        '''Created by me, AdMob Easy is a user-friendly Flutter plugin designed to simplify the integration of AdMob ads into your mobile applications. With easy-to-use methods and widgets, developers can seamlessly incorporate ads and maximize revenue effortlessly. Enjoy streamlined ad management and enhanced monetization possibilities with AdMob Easy.''',
+    web: 'https://pub.dev/packages/admob_easy',
+  ),
+  Project(
+    title: 'ohmywall AI Wallpaper',
+    description:
+        '''I've crafted a dynamic wallpaper app, boasting a diverse array of captivating backgrounds, sure to enhance users' device aesthetics with every swipe.''',
+    appstore: 'https://apps.apple.com/us/app/ohmywall-ai-wallpapers/id6479354574',
+    web: 'https://ohmywallpaper.com/',
+  ),
+  Project(
+    title: 'AI Chatbot - AI Generator',
+    description:
+        '''Introducing my innovative creation: Chatbot - AI Generator. Packed with features like AI-powered article summarization, personalized assistance, and stunning AI art generation, this app is a testament to my passion for pushing boundaries in technology''',
     playstore: 'https://play.google.com/store/apps/details?id=com.swed.ai.chatbot',
+    appstore: 'https://apps.apple.com/pk/app/ai-chatbot-ai-generator/id6472266603',
   ),
   Project(
     title: 'Gaia - AI Dream Interpreter',
@@ -45,12 +59,18 @@ For those seeking the full spectrum of premium features, Nest offers In-App Purc
 With Nest - Your Al Parenting Companion, we strive to provide expectant mothers with a supportive and intuitive platform, combining advanced Al technologies with personalized care to enrich their parenting journey like never before.''',
     playstore:
         'https://play.google.com/store/apps/details?id=com.metasense.nest',
+    appstore: 'https://apps.apple.com/us/app/nest-ai-parenting-companion/id6450738689',
   ),
   Project(
     title: "Noor Mahal",
     description: 'Noor Mahal, a hidden gem of Indian cuisine nestled in the heart of Spain, offers a captivating culinary adventure that celebrates the diverse flavors and traditions of India. As you enter our doors, you will be greeted by an ambiance that seamlessly blends the warmth of Indian hospitality with the charm of Spanish surroundings.',
     appstore: 'https://apps.apple.com/us/app/noor-mahal/id6456351734',
     playstore: 'https://play.google.com/store/apps/details?id=com.hubsolutions.noormahal',
+  ),
+  Project(
+    title: "Movsai Chat",
+    description: 'Developed a Flutter web app integrating ChatGPT for conversational AI, Google Bard for rich content rendering, and Cloud services for seamless data management',
+    web: 'https://movsaichat.web.app/',
   ),
   Project(
     title: "Wibbly",
