@@ -36,7 +36,7 @@ class SideMenu extends StatelessWidget {
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "25",
+                      text: "26",
                     ),
                     Skills(),
                     SizedBox(height: defaultPadding),
@@ -46,7 +46,7 @@ class SideMenu extends StatelessWidget {
                     SizedBox(height: defaultPadding / 2),
                     TextButton(
                       onPressed: () {
-                        LinkService.openLink('https://drive.google.com/file/d/1hoCbn2evXoDWsjEM-CfJI37I0H5Gpd5c/view?usp=sharing');
+                        LinkService.openLink('https://drive.google.com/file/d/1nY13tqzuIDxT2IQ2ubFEjQ2jYuPK9thP/view?usp=sharing');
                       },
                       child: FittedBox(
                         child: Row(

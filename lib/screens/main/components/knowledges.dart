@@ -19,7 +19,7 @@ class Knowledges extends StatelessWidget {
               vertical: defaultPadding),
           child: Text(
             "Knowledge\'s",
-            style: Theme.of(context).textTheme.subtitle2,
+            style: Theme.of(context).textTheme.titleMedium,
           ),
         ),
         KnowledgeText(text: "Flutter, Dart, PHP"),

@@ -15,7 +15,19 @@ class Project {
 
 List<Project> demoProjects = [
   Project(
-    title: 'Admob Easy',
+    title: 'flutter_store_kit',
+    description:
+        '''Simplify in-app purchases in Flutter apps with `FlutterStoreKit`. Manage initialization, purchases, and subscriptions with ease. Ideal for premium content and subscriptions.''',
+    web: 'https://pub.dev/packages/flutter_store_kit',
+  ),
+  Project(
+    title: 'flutter_animation_plus',
+    description:
+        '''Elevate your Flutter app's visual appeal with flutter_animation_plus. Choose from 15+ dynamic animations to enhance interactivity.''',
+    web: 'https://pub.dev/packages/flutter_animation_plus',
+  ),
+  Project(
+    title: 'admob_easy',
     description:
         '''Created by me, AdMob Easy is a user-friendly Flutter plugin designed to simplify the integration of AdMob ads into your mobile applications. With easy-to-use methods and widgets, developers can seamlessly incorporate ads and maximize revenue effortlessly. Enjoy streamlined ad management and enhanced monetization possibilities with AdMob Easy.''',
     web: 'https://pub.dev/packages/admob_easy',
