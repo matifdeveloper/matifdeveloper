@@ -47,6 +47,12 @@ List<Project> demoProjects = [
     appstore: 'https://apps.apple.com/pk/app/ai-chatbot-ai-generator/id6472266603',
   ),
   Project(
+    title: 'Ai translate speech translator',
+    description:
+        '''AI translate speech Translator is ideal for students, travelers, employees, and teachers looking to learn languages. For businessmen who frequently communicate with clients, this word and text translation application is the best application. They can communicate in English, Chinese, Spanish, Indonesian, Portuguese, Arabic, Thai, Vietnamese, French, Russian, Persian, and many other languages using features like text, speech, and voice with just one click.''',
+    playstore: 'https://play.google.com/store/apps/details?id=com.swedai.ai_translator',
+  ),
+  Project(
     title: 'Gaia - AI Dream Interpreter',
     description:
         '''The aim of this app is to Unlock the secrets of your subconscious with GAIA, your AI-powered dream analyst. Inspired by the profound theories of Carl Jung, GAIA dives into the labyrinth of your dreams, revealing hidden insights and messages tailor-made for you.
@@ -74,9 +80,13 @@ With Nest - Your Al Parenting Companion, we strive to provide expectant mothers 
     appstore: 'https://apps.apple.com/us/app/nest-ai-parenting-companion/id6450738689',
   ),
   Project(
+    title: "PDF Viewer: Merge,Compress",
+    description: 'Discover the ultimate productivity app for all your PDF needs! Our feature-rich PDF manager combines powerful tools to help you work with PDF files effortlessly. Whether you need a PDF viewer, merger, or converter',
+    playstore: 'https://play.google.com/store/apps/details?id=com.pdfviewer.pdfcompressor.pdfmerger.pdfreader',
+  ),
+  Project(
     title: "Noor Mahal",
     description: 'Noor Mahal, a hidden gem of Indian cuisine nestled in the heart of Spain, offers a captivating culinary adventure that celebrates the diverse flavors and traditions of India. As you enter our doors, you will be greeted by an ambiance that seamlessly blends the warmth of Indian hospitality with the charm of Spanish surroundings.',
-    appstore: 'https://apps.apple.com/us/app/noor-mahal/id6456351734',
     playstore: 'https://play.google.com/store/apps/details?id=com.hubsolutions.noormahal',
   ),
   Project(
