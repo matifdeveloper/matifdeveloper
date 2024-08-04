@@ -33,6 +33,18 @@ List<Project> demoProjects = [
     web: 'https://pub.dev/packages/admob_easy',
   ),
   Project(
+    title: 'ui_ball',
+    description:
+        '''Created by me, This package offers a variety of free and open-source loaders and spinners to enhance your Flutter projects. With numerous loader options available, you'll find just the right animation for your needs.''',
+    web: 'https://pub.dev/packages/ui_ball',
+  ),
+  Project(
+    title: 'Periods Tracker',
+    description:
+        '''Eve Period & Pregnancy Tracker: Easily manage your menstrual cycles, predict ovulation, and track pregnancy with our intuitive, all-in-one app.''',
+    appstore: 'https://apps.apple.com/us/app/eve-period-pregnancy-tracker/id6566184845',
+  ),
+  Project(
     title: 'ohmywall AI Wallpaper',
     description:
         '''I've crafted a dynamic wallpaper app, boasting a diverse array of captivating backgrounds, sure to enhance users' device aesthetics with every swipe.''',
