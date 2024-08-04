@@ -62,6 +62,7 @@ List<Project> demoProjects = [
     title: 'Ai translate speech translator',
     description:
         '''AI translate speech Translator is ideal for students, travelers, employees, and teachers looking to learn languages. For businessmen who frequently communicate with clients, this word and text translation application is the best application. They can communicate in English, Chinese, Spanish, Indonesian, Portuguese, Arabic, Thai, Vietnamese, French, Russian, Persian, and many other languages using features like text, speech, and voice with just one click.''',
+    appstore: 'https://apps.apple.com/us/developer/bluell-ab/id1716874220',
     playstore: 'https://play.google.com/store/apps/details?id=com.swedai.ai_translator',
   ),
   Project(
